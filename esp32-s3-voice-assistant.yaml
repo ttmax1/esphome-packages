@@ -174,7 +174,7 @@ speaker:
 
 micro_wake_word:
   models:
-    - ${micro_wake_word_model}
+    - model: ${micro_wake_word_model}
   on_wake_word_detected:
     - voice_assistant.start:
         wake_word: !lambda return wake_word;
