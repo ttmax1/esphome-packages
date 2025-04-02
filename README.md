@@ -19,21 +19,21 @@ substitutions:
   micro_wake_word_model: hey_mycroft
 
   # INMP441
-  mic_ws_pin: GPIO5
+  mic_ws_pin: GPIO4
   mic_sck_pin: GPIO6
-  mic_sd_pin: GPIO4
+  mic_sd_pin: GPIO5
 
   # MAX98357A
-  spk_lrc_pin: GPIO12
-  spk_bclk_pin: GPIO13
-  spk_din_pin: GPIO14
+  spk_lrc_pin: GPIO16
+  spk_bclk_pin: GPIO15
+  spk_din_pin: GPIO7
 
   mute_pin: GPIO11
   mute_pin_threshold: "160000"
 
 packages:
   voice-assistant:
-    url: https://github.com/tronikos/esphome-packages
+    url: https://github.com/ttmax1/esphome-packages
     ref: main
     files: [esp32-s3-voice-assistant.yaml]
     # Or to use the device as a media player:

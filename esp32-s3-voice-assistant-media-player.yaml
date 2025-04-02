@@ -18,14 +18,14 @@ substitutions:
   micro_wake_word_model: okay_nabu
 
   # INMP441
-  mic_ws_pin: GPIO5
+  mic_ws_pin: GPIO4
   mic_sck_pin: GPIO6
-  mic_sd_pin: GPIO4
+  mic_sd_pin: GPIO5
 
   # MAX98357A
-  spk_lrc_pin: GPIO12
-  spk_bclk_pin: GPIO13
-  spk_din_pin: GPIO14
+  spk_lrc_pin: GPIO16
+  spk_bclk_pin: GPIO15
+  spk_din_pin: GPIO7
 
   esp32_touch_setup_mode: "false"
 
