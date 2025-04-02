@@ -67,7 +67,7 @@ psram:
   speed: 80MHz
 
 external_components:
-  - source: https://github.com/ttmax1/esphome-packages
+  - source: github://jesserockz/esphome-components
     components: [file]
     refresh: 0s
 
