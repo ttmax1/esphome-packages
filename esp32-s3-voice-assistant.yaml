@@ -501,4 +501,4 @@ text_sensor:
 
 file:
   - id: timer_finished_wave_file
-    file: hhttps://github.com/esphome/firmware/tree/main/voice-assistant/sounds/timer_finished.wav
+    file: https://github.com/esphome/firmware/tree/main/voice-assistant/sounds/timer_finished.wav
